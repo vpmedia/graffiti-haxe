@@ -12,7 +12,7 @@
 -cp src/test/haxe
 -lib munit
 -lib hamcrest
--lib openfl
+-lib lime
 -swf-version 11.7
 -swf build/as3_test.swf
 -debug
