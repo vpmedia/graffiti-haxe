@@ -54,3 +54,7 @@ before_install:
     - haxelib install hxsl || true
     - haxe -version
     - haxelib run lime
+    #- haxelib run munit gen
+    #- haxe test.html
+    #- haxelib run munit report teamcity
+    #- haxelib run munit test
