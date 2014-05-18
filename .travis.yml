@@ -39,8 +39,9 @@ before_install:
     - mkdir -p bin
     - echo ~/.haxe/lib | haxelib setup
     - haxelib install munit || true
+
+script:
     - haxe build.hxml
-    #- haxelib run lime
     #- haxelib run munit gen
     #- haxe test.html
     #- haxelib run munit report teamcity
